@@ -1,0 +1,1301 @@
+fileFormatVersion: 2
+guid: e2162151e8290f542952905891bd77b2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 96, y: 1157, z: 587, w: 60}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_0"
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1176
+        width: 324
+        height: 276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a6d2ed3c9848f449ba9ac53efe74a5
+      internalID: 815327531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_1"
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 673
+        width: 445
+        height: 447
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eff6f431010157749b661d01747a31e6
+      internalID: -961810212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_2"
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1069
+        width: 41
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 794745063411a43409ec2721efcaac14
+      internalID: 1928686598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_3"
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 873
+        width: 574
+        height: 651
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 221f7c0c6bd583f47b444f60c8dd0f0e
+      internalID: -9135837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_4"
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 934
+        width: 45
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81f2a58d1709f445b9e37082c256878
+      internalID: 846759824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_5"
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 1067
+        width: 37
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad1608a128258d4d99a3d24f86f7f0a
+      internalID: -1092188645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_6"
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1056
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a46da5158464e40bc97f2d53c9b4eb
+      internalID: 2061179897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_7"
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 802
+        width: 78
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad43c52aeb3dee342ac4c01916467f7d
+      internalID: 1772277223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_8"
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 1115
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d55d717d6091984ca9ca41d349d227b
+      internalID: 1978365274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_9"
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 922
+        width: 47
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed38ae8647ce0b45ac731d3308563cf
+      internalID: 770765758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_10"
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 1060
+        width: 42
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d5fdba094a90844914c26dd84f63a4
+      internalID: -1068267204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_11"
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 779
+        width: 58
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd38e69933e5bb44ab628b75a9baedb
+      internalID: 338091493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_12"
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 960
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be86521c32c3cb3439fc7ac0994b1295
+      internalID: 246304794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_13"
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 1055
+        width: 119
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a95d3ef8d486d46ae3acbdac647597
+      internalID: 286021251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_14"
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 866
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddce3fcc0bf4eeb408b2388b78bb797e
+      internalID: 848545270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_15"
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 918
+        width: 50
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd595a796c1db043ae165aea24ba8be
+      internalID: 1757143457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_16"
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1141
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d837daaf5096445878639accef5fdc
+      internalID: 723538703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_17"
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 626
+        width: 231
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8786f94bd5f83d40bc5127717e73185
+      internalID: 778666649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_18"
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 822
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd926cba462ad6498ef6b43232688d3
+      internalID: -1592021848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_19"
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 830
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239d23bee70cf064d9bbb1e2fdc3ff62
+      internalID: -1758238214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_20"
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 726
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebefc470a9acf3b4fa923f01b1a44b4c
+      internalID: -1972691748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_21"
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 719
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb1ee02eea6780842847cdd6e200619e
+      internalID: -1757463791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_22"
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 395
+        width: 322
+        height: 317
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72616bee0f382654086fd5bbe4325345
+      internalID: -1628399091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_23"
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 657
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf186bb89b04f84197bea360ed666a2
+      internalID: -235491129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_24"
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 632
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47609baa057fc034998f45b95ad9f785
+      internalID: -474434628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_25"
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 617
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3d9d5f0839ace4ea66407046987237
+      internalID: 1438900521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_26"
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 625
+        width: 10
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c278e2c7a5bdd41a1b1088cc401ef7
+      internalID: 868845205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_27"
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 372
+        width: 298
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1019bb01cf3d46b488995806be8a259d
+      internalID: 2102480218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_28"
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 600
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95754f85bb50e4d42be8191e8c1e85b3
+      internalID: -497649972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_29"
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 606
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765cb357d2e0f504390f834415a8f565
+      internalID: 858914936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_30"
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 594
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58edfc1fa438a9e49954f56b3bce6428
+      internalID: -739155667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_31"
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 563
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba236ab947d48343bdcfb00aff40a66
+      internalID: 1542628744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_32"
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 393
+        width: 300
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba87579223468146a5b2701bd88b782
+      internalID: 1964612674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_33"
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 520
+        width: 110
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 165fbd7ab1d10ac40a41b3e4550d9592
+      internalID: 572173715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_34"
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 394
+        width: 94
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d68a885219b54e41899b3684d779d41
+      internalID: 323395764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_35"
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 469
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac8a6d1aa3598a4eaf949e257f173e4
+      internalID: -1102406504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_36"
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 445
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89771121e37331541ad710fab7e23707
+      internalID: 145471320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_37"
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 445
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d0c97e5283fd24581dad8057252115
+      internalID: 406617830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_38"
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 417
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5beef6d8e0b2b7f4bb0d4990765244ad
+      internalID: 1394545295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_39"
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 420
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64beb1cc838799e4b881958e466c6d09
+      internalID: -1832911915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_40"
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 383
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3e001c4213b244fb109b139e7b8862
+      internalID: -906379690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_41"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c672f3f51cc76f4393ce2397986293a
+      internalID: 1499573745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_42"
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 386
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c1b7b68b13e2cf4894ffe6421446a36
+      internalID: -1415832278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_43"
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 226
+        width: 316
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7fe1677e7ae5f41a11e7885c0ec9bf
+      internalID: 1442545235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_44"
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 271
+        width: 97
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f558444b8ad0b746bad497225b8ab3c
+      internalID: -458079159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_45"
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 252
+        width: 95
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f50919a7cf7fc448430b43357d6f09
+      internalID: 1997071825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_46"
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 228
+        width: 268
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88ff54ec2fa80644b7eb81ae96b9e88
+      internalID: 1803465264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_47"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9
+        width: 290
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9314d444e9cd6b4eb38207c7050f782
+      internalID: -1461645258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_48"
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 9
+        width: 180
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2cff74ea7a996a4c9566a9a9af8ce1b
+      internalID: 976464777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_49"
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 1
+        width: 236
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6afd599bb3a7bd4184b5dfe21cc3ccc
+      internalID: 544818295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_50"
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 9
+        width: 309
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675cc6b41f534b347a618755eff0deff
+      internalID: -185871510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_0": 815327531
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_1": -961810212
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_10": -1068267204
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_11": 338091493
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_12": 246304794
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_13": 286021251
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_14": 848545270
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_15": 1757143457
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_16": 723538703
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_17": 778666649
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_18": -1592021848
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_19": -1758238214
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_2": 1928686598
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_20": -1972691748
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_21": -1757463791
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_22": -1628399091
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_23": -235491129
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_24": -474434628
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_25": 1438900521
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_26": 868845205
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_27": 2102480218
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_28": -497649972
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_29": 858914936
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_3": -9135837
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_30": -739155667
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_31": 1542628744
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_32": 1964612674
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_33": 572173715
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_34": 323395764
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_35": -1102406504
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_36": 145471320
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_37": 406617830
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_38": 1394545295
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_39": -1832911915
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_4": 846759824
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_40": -906379690
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_41": 1499573745
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_42": -1415832278
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_43": 1442545235
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_44": -458079159
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_45": 1997071825
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_46": 1803465264
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_47": -1461645258
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_48": 976464777
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_49": 544818295
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_5": -1092188645
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_50": -185871510
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_6": 2061179897
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_7": 1772277223
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_8": 1978365274
+      "20250430_2353_T\xE0i s\u1EA3n Game Kh\xF4ng Gian_simple_compose_01jt3ssajmeptths96z6xnrwyt_9": 770765758
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
