@@ -11,7 +11,7 @@ public class EnemyRandom : ZennyMonoBehavior
         base.LoadComponents();
         this.LoadEnemySpawnerCtrl();
     }
-    protected virtual void FixedUpdate()
+    protected virtual void Start()
     {
         this.EnemySpawning();
     }
@@ -25,10 +25,10 @@ public class EnemyRandom : ZennyMonoBehavior
     protected virtual void EnemySpawning()
     {
         Vector3 spawnPos = this.enemySpawnerCtrl.SpawnPoint.GetRandom().position;
-        Quaternion spawnRot = Quaternion.Euler(0, 0, Random.Range(225f, 315f));
+        Quaternion spawnRot = Quaternion.Euler(0, 0, 0);
         Transform obj= this.enemySpawnerCtrl.EnemySpawner.Spawn(EnemySpawner.EnemyOne,spawnPos,spawnRot);
         obj.gameObject.SetActive(true);
-        Invoke(nameof(this.EnemySpawning), 100f);
+        Invoke(nameof(this.EnemySpawning),1f);
     }
 
 }

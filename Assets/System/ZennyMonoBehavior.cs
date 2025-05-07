@@ -22,4 +22,8 @@ public class ZennyMonoBehavior : MonoBehaviour
     {
         //for overriding
     }
+    protected virtual void OnEnable()
+    {
+        //for overriding
+    }
 }
