@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BulletDespawn : DeSpawnByDistance
 {
-    protected override void DeSpawnObject()
+    public override void DeSpawnObject()
     {
         BulletSpawner.Instance.Despawn(transform.parent);
     }

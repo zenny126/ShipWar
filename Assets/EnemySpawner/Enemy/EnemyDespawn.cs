@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyDespawn : DeSpawnByDistance
 {
-    protected override void DeSpawnObject()
+    public override void DeSpawnObject()
     {
         EnemySpawner.Instance.Despawn(transform.parent);
     }

@@ -19,7 +19,7 @@ public abstract class  DeSpawn : ZennyMonoBehavior
         this.DeSpawnObject();
     }
     protected abstract bool CanDeSpawn();
-    protected virtual void DeSpawnObject()
+    public virtual void DeSpawnObject()
     {
         Destroy(transform.parent.gameObject);
     }

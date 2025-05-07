@@ -11,8 +11,9 @@ public class EnemyRandom : ZennyMonoBehavior
         base.LoadComponents();
         this.LoadEnemySpawnerCtrl();
     }
-    protected virtual void Start()
+    protected override void Start()
     {
+        base.Start();
         this.EnemySpawning();
     }
     protected virtual void LoadEnemySpawnerCtrl()

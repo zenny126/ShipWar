@@ -26,4 +26,8 @@ public class ZennyMonoBehavior : MonoBehaviour
     {
         //for overriding
     }
+    protected virtual void Start()
+    {
+        //for overriding
+    }
 }
