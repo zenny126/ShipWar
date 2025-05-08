@@ -335,6 +335,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyDespawn: {fileID: 1584952554}
+  enemySO: {fileID: 11400000, guid: 28cc991c22b64984a94f32b36a57fce8, type: 2}
 --- !u!1 &206799935
 GameObject:
   m_ObjectHideFlags: 0
@@ -616,7 +617,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4458a8ccf543d8248bac2fef2b41e243, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentHP: 10
+  currentHP: 8
   maxHP: 8
   isDead: 0
   sphereCollider: {fileID: 374267859}
@@ -1853,6 +1854,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyDespawn: {fileID: 443254010}
+  enemySO: {fileID: 11400000, guid: 0fd4cd786a122a748bd07b0abfd2a925, type: 2}
 --- !u!1 &1897264996
 GameObject:
   m_ObjectHideFlags: 0
@@ -1947,7 +1949,7 @@ MonoBehaviour:
   direction: {x: 1, y: 0, z: 0}
   enemyFlyspeed: 1.5
   gameCtrl: {fileID: 1373960222}
-  randomRange: 7
+  randomRange: 3
 --- !u!1 &1915812402
 GameObject:
   m_ObjectHideFlags: 0
@@ -1996,7 +1998,7 @@ MonoBehaviour:
   direction: {x: 1, y: 0, z: 0}
   enemyFlyspeed: 1.5
   gameCtrl: {fileID: 1373960222}
-  randomRange: 7
+  randomRange: 3
 --- !u!1 &1923358068
 GameObject:
   m_ObjectHideFlags: 0
@@ -2261,6 +2263,63 @@ Transform:
   - {fileID: 2006902291}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &3220838528423823573
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3820286191232027353, guid: e582c975a75439f4fb2be04ffc65625f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 3820286191232027353, guid: e582c975a75439f4fb2be04ffc65625f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.07489194
+      objectReference: {fileID: 0}
+    - target: {fileID: 3820286191232027353, guid: e582c975a75439f4fb2be04ffc65625f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3820286191232027353, guid: e582c975a75439f4fb2be04ffc65625f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3820286191232027353, guid: e582c975a75439f4fb2be04ffc65625f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3820286191232027353, guid: e582c975a75439f4fb2be04ffc65625f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3820286191232027353, guid: e582c975a75439f4fb2be04ffc65625f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3820286191232027353, guid: e582c975a75439f4fb2be04ffc65625f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3820286191232027353, guid: e582c975a75439f4fb2be04ffc65625f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3820286191232027353, guid: e582c975a75439f4fb2be04ffc65625f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4838549513364001334, guid: e582c975a75439f4fb2be04ffc65625f, type: 3}
+      propertyPath: m_Name
+      value: EnemyDisappearFX
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e582c975a75439f4fb2be04ffc65625f, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -2273,3 +2332,4 @@ SceneRoots:
   - {fileID: 1627787038}
   - {fileID: 2093181884}
   - {fileID: 1373960223}
+  - {fileID: 3220838528423823573}
