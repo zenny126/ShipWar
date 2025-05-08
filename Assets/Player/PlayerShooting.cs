@@ -7,7 +7,7 @@ public class PlayerShooting : MonoBehaviour
     [SerializeField] protected bool isShooting = false;
     [SerializeField] protected float shootCD = 0.5f;
     [SerializeField] protected float shootTimer = 0f;
-    [SerializeField] protected Transform bulletPrefab;
+    //[SerializeField] protected Transform bulletPrefab;
 
     private void Update()
     {

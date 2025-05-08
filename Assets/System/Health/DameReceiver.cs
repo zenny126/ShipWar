@@ -6,11 +6,13 @@ public class DameReceiver : ZennyMonoBehavior
 {
     [SerializeField] protected float currentHP = 10f;
     [SerializeField] protected float maxHP = 10f;
+    [SerializeField] protected bool isDead = false;
     [SerializeField] protected SphereCollider sphereCollider;
-    protected override void Start()
+    protected override void OnEnable()
     {
-        base.Start();
+      
         this.ReBorn();
+        
         
     }
     protected override void LoadComponents()
@@ -21,6 +23,7 @@ public class DameReceiver : ZennyMonoBehavior
     protected virtual void ReBorn()
     {
         this.currentHP = this.maxHP;
+        this.isDead = false;
     }
     protected virtual void Heal(float heal)
     {
@@ -40,12 +43,31 @@ public class DameReceiver : ZennyMonoBehavior
     }
     public virtual void TakeDame(float dame)
     {
+        if (this.isDead) return;
         this.currentHP -= dame;
-        if (this.currentHP < 0)
-        {
-            this.currentHP = 0;
-        }
+        if (this.currentHP < 0) this.currentHP = 0;
+        
+        this.IsDeadCheck();
+
     }
+
+    protected virtual void IsDeadCheck()
+    {
+        if (!this.IsDead()) return;
+        
+            this.isDead = true;
+            this.OnDead();
+        
+    }
+    protected virtual void OnDead()
+    {
+        //   for overriding
+    }
+
+
+
+
+
     protected virtual void LoadSphereCollider()
     {
         if (sphereCollider != null) return;
