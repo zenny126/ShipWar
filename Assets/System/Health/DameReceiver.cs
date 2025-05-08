@@ -20,6 +20,11 @@ public class DameReceiver : ZennyMonoBehavior
         base.LoadComponents();
         this.LoadSphereCollider();
     }
+    protected override void ResetValue()
+    {
+        base.ResetValue();
+        this.ReBorn();
+    }
     protected virtual void ReBorn()
     {
         this.currentHP = this.maxHP;

@@ -23,4 +23,9 @@ public class EnemyDameReceiver : DameReceiver
     {
         this.enemyCtrl.EnemyDespawn.DeSpawnObject();
     }
+    protected override void ReBorn()
+    {
+        this.maxHP = this.enemyCtrl.EnemySO.maxHp;
+        base.ReBorn();
+    }
 }
