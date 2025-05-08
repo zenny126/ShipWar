@@ -7,7 +7,7 @@ public class EnemySpawnerRandom : ZennyMonoBehavior
     [SerializeField] protected EnemySpawnerCtrl enemySpawnerCtrl;
     [SerializeField] protected float randomDelay = 1f;
     [SerializeField] protected float randomTimer = 0f;
-    [SerializeField] protected int randomLimit = 10;
+    [SerializeField] protected int randomCountLimit = 10;
 
     protected override void LoadComponents()
     {
@@ -32,8 +32,8 @@ public class EnemySpawnerRandom : ZennyMonoBehavior
     }
     protected virtual void EnemySpawning()
     {
-        //if (this.RandomReachLimit()) return;
-        this.randomTimer += Time.deltaTime;
+        if (this.RandomReachLimit()) return;
+        this.randomTimer += Time.fixedDeltaTime;
         if (this.randomTimer < this.randomDelay) return;
         randomTimer = 0f;
 
@@ -43,9 +43,9 @@ public class EnemySpawnerRandom : ZennyMonoBehavior
         obj.gameObject.SetActive(true);
         //Invoke(nameof(this.EnemySpawning),1f);
     }
-    //protected virtual bool RandomReachLimit()
-    //{
-    //    int currentEnemyCount = this.enemySpawnerCtrl.EnemySpawner.ObjectCount;
-    //    return currentEnemyCount >= this.randomLimit;
-    //}
+    protected virtual bool RandomReachLimit()
+    {
+        int currentEnemyCount = this.enemySpawnerCtrl.EnemySpawner.CurrentObjectCount;
+        return currentEnemyCount >= this.randomCountLimit;
+    }
 }

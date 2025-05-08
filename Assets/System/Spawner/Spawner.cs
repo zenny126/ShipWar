@@ -12,6 +12,11 @@ public abstract class Spawner : ZennyMonoBehavior
     [SerializeField] protected List<Transform> poolObjs;
     [SerializeField] protected Transform holder;
 
+    [SerializeField] protected int currentObjectCount = 0;
+    public int CurrentObjectCount
+    {
+        get { return this.currentObjectCount; }
+    }
 
     protected override void LoadComponents()
     {
@@ -54,6 +59,7 @@ public abstract class Spawner : ZennyMonoBehavior
         Transform newPrefab= this.GetObjectFromPool(prefab);
          newPrefab.SetPositionAndRotation(spawnPos, spawnRot);
         newPrefab.parent=this.holder;
+        this.currentObjectCount++;
         return newPrefab;
     }
     protected virtual Transform GetObjectFromPool(Transform prefab)
@@ -87,5 +93,6 @@ public abstract class Spawner : ZennyMonoBehavior
     {
         this.poolObjs.Add(obj);
         obj.gameObject.SetActive(false);
+        this.currentObjectCount--;
     }
 }
