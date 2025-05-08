@@ -37,9 +37,16 @@ public class EnemySpawnerRandom : ZennyMonoBehavior
         if (this.randomTimer < this.randomDelay) return;
         randomTimer = 0f;
 
+
+        Transform prefab = this.enemySpawnerCtrl.EnemySpawner.GetRandomPrefab();
+
+
         Vector3 spawnPos = this.enemySpawnerCtrl.SpawnPoint.GetRandom().position;
         Quaternion spawnRot = Quaternion.Euler(0, 0, 0);
-        Transform obj = this.enemySpawnerCtrl.EnemySpawner.Spawn(EnemySpawner.EnemyOne, spawnPos, spawnRot);
+        
+        
+
+        Transform obj = this.enemySpawnerCtrl.EnemySpawner.Spawn(prefab, spawnPos, spawnRot);
         obj.gameObject.SetActive(true);
         //Invoke(nameof(this.EnemySpawning),1f);
     }

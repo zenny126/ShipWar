@@ -56,6 +56,15 @@ public abstract class Spawner : ZennyMonoBehavior
             Debug.LogError("Prefab not found");
             return null;
         }
+        //Transform newPrefab= this.GetObjectFromPool(prefab);
+        // newPrefab.SetPositionAndRotation(spawnPos, spawnRot);
+        //newPrefab.parent=this.holder;
+        //this.currentObjectCount++;
+        //return newPrefab;
+        return this.Spawn(prefab, spawnPos, spawnRot);
+    }public virtual Transform Spawn(Transform prefab,Vector3 spawnPos,Quaternion spawnRot)
+    {
+        
         Transform newPrefab= this.GetObjectFromPool(prefab);
          newPrefab.SetPositionAndRotation(spawnPos, spawnRot);
         newPrefab.parent=this.holder;
@@ -77,6 +86,12 @@ public abstract class Spawner : ZennyMonoBehavior
         newPrefab.name = prefab.name;
         return newPrefab;
     }
+    public virtual void Despawn(Transform obj)
+    {
+        this.poolObjs.Add(obj);
+        obj.gameObject.SetActive(false);
+        this.currentObjectCount--;
+    }
     public virtual Transform GetPrefabByName(string prefabName)
     {
         foreach (Transform prefab in this.prefabs)
@@ -89,10 +104,9 @@ public abstract class Spawner : ZennyMonoBehavior
         //Debug.LogError("Prefab not found");
         return null;
     }
-    public virtual void Despawn(Transform obj)
+   public virtual Transform GetRandomPrefab()
     {
-        this.poolObjs.Add(obj);
-        obj.gameObject.SetActive(false);
-        this.currentObjectCount--;
+        int randomIndex = Random.Range(0, this.prefabs.Count);
+        return this.prefabs[randomIndex];
     }
 }
