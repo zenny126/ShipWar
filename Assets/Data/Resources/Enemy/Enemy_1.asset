@@ -10,7 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a9ee5c53b998814c8905155475e4cb2, type: 3}
-  m_Name: Enemy2
+  m_Name: Enemy_1
   m_EditorClassIdentifier: 
-  enemyName: Enemy2
-  maxHp: 8
+  enemyName: Enemy_1
+  maxHp: 10
+  dropList:
+  - itemSO: {fileID: 11400000, guid: bfae6fa5dbb02d84985773555ecc68c4, type: 2}
+    dropRate: 0
+    minDrop: 0
+    maxDrop: 0
+  - itemSO: {fileID: 11400000, guid: fb112ee8fb0b47545b46146888d88a36, type: 2}
+    dropRate: 0
+    minDrop: 0
+    maxDrop: 0

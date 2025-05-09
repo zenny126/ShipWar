@@ -7,4 +7,5 @@ public class EnemySO : ScriptableObject
 {
     public string enemyName="Enemy";
     public float maxHp=10f;
+    public List<DropRate> dropList;
 }
