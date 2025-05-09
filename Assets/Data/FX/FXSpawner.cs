@@ -6,7 +6,8 @@ public class FXSpawner : Spawner
 {
     protected static FXSpawner instance;
     public static FXSpawner Instance { get => instance; }
-    public static string FX1 = "EnemyDisappearFX";
+    public static string enemyDisappearFX = "EnemyDisappearFX";
+    public static string bulletDisappearFX = "BulletDisappearFX";
     protected override void Awake()
     {
         base.Awake();

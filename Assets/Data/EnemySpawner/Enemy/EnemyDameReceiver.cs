@@ -37,7 +37,7 @@ public class EnemyDameReceiver : DameReceiver
     }
     protected virtual string GetOnDeadFXName()
     {
-        return FXSpawner.FX1;
+        return FXSpawner.enemyDisappearFX;
         
     }
 }

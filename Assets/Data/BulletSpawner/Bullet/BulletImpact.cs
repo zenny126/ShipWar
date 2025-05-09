@@ -35,6 +35,17 @@ public class BulletImpact : BulletAbstract
     private void OnTriggerEnter(Collider other)
     {
         this.bulletCtrl.DamageSender.SendDame(other.transform);
+        this.CreatBulletDisappearFX();
 
+    }
+    protected virtual void CreatBulletDisappearFX()
+    {
+        string fxName = this.GetBulletDisappearFXName();
+        Transform bulletDisappearFX= FXSpawner.Instance.Spawn(fxName, this.transform.position, this.transform.rotation);
+        bulletDisappearFX.gameObject.SetActive(true);
+    }
+    protected virtual string GetBulletDisappearFXName()
+    {
+        return FXSpawner.bulletDisappearFX;
     }
 }
