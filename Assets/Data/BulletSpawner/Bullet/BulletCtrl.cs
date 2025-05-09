@@ -5,20 +5,31 @@ using UnityEngine;
 public class BulletCtrl : ZennyMonoBehavior
 {
     [SerializeField] protected DameSender dameSender;
-    public DameSender DamageSender
-    {
-        get { return dameSender; }
-    }
+    public DameSender DamageSender => dameSender;
+
     [SerializeField] protected BulletDespawn bulletDespawn;
-    public BulletDespawn BulletDespawn
-    {
-        get { return bulletDespawn; }
-    }
+    public BulletDespawn BulletDespawn => bulletDespawn;
+
+    [SerializeField] protected Transform shooter;
+    public Transform Shooter => shooter;
+
     protected override void LoadComponents()
     {
         base.LoadComponents();
         this.LoadDameSender();
         this.LoadBulletDespawn();
+       // this.loadShooter();
+    }
+
+    //protected virtual void loadShooter()
+    //{
+    //    //
+    //    if (shooter != null) return;
+    //    this.shooter = FindAnyObjectByType<PlayerCtrl>().transform;
+    //}
+    public virtual void SetShooter(Transform shooter)
+    {
+        this.shooter = shooter;
     }
     protected virtual void LoadDameSender()
     {

@@ -34,6 +34,7 @@ public class BulletImpact : BulletAbstract
     }
     private void OnTriggerEnter(Collider other)
     {
+        if (other.transform.parent == this.bulletCtrl.Shooter) return;
         this.bulletCtrl.DamageSender.SendDame(other.transform);
         this.CreatBulletDisappearFX();
 

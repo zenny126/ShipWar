@@ -32,6 +32,9 @@ public class PlayerShooting : MonoBehaviour
         if (newBullet == null) return;
 
         newBullet.gameObject.SetActive(true);
+
+        BulletCtrl bulletCtrl = newBullet.GetComponent<BulletCtrl>();
+        bulletCtrl.SetShooter(this.transform.parent);
         //Debug.Log("Shooting");
     }
     protected virtual bool IsShooting()
