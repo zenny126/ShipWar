@@ -18,6 +18,7 @@ public class ItemDropSpawner : Spawner
     {
         ItemCode itemCode = dropList[0].itemSO.itemCode;
         Transform itemDrop = this.Spawn(itemCode.ToString(), pos, rot);
+
         itemDrop.gameObject.SetActive(true);
     }
 
