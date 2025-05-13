@@ -19,15 +19,24 @@ public class EnemyDameReceiver : DameReceiver
         this.enemyCtrl =transform.parent.GetComponent<EnemyCtrl>();
        Debug.Log("LoadEnemyCtrl");
     }
-    protected override void OnDead()
-    {
-        this.OnDeadFX();
-        this.enemyCtrl.EnemyDespawn.DeSpawnObject();
-    }
     protected override void ReBorn()
     {
         this.maxHP = this.enemyCtrl.EnemySO.maxHp;
         base.ReBorn();
+    }
+    protected override void OnDead()
+    {
+        this.OnDeadFX();
+        this.enemyCtrl.EnemyDespawn.DeSpawnObject();
+        //Drop here
+        this.OnDeadDrop();
+    }
+    
+    protected virtual void OnDeadDrop()
+    {
+        Vector3 dropPos = this.transform.position;
+        Quaternion dropRot = this.transform.rotation;
+        ItemDropSpawner.Instance.Drop(this.enemyCtrl.EnemySO.dropList, dropPos, dropRot);
     }
     protected virtual void OnDeadFX()
     {

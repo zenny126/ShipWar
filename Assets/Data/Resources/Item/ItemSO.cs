@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class ItemSO : ScriptableObject
     {
-    public string itemCode = "Code";
+    public ItemCode itemCode ;
     public string itemName = "Item";
 
 }
