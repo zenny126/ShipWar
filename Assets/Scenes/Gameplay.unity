@@ -1268,7 +1268,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxSlot: 70
-  items: []
+  items:
+  - itemProfile: {fileID: 11400000, guid: 23be2d00176b5d54693b9466adad4819, type: 2}
+    itemCount: 0
+    maxStack: 75
+  - itemProfile: {fileID: 11400000, guid: 0af923accc289ae438251c801cc85578, type: 2}
+    itemCount: 0
+    maxStack: 45
 --- !u!1 &660151241
 GameObject:
   m_ObjectHideFlags: 0
