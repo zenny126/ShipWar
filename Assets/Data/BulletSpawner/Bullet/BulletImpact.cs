@@ -36,17 +36,17 @@ public class BulletImpact : BulletAbstract
     {
         if (other.transform.parent == this.bulletCtrl.Shooter) return;
         this.bulletCtrl.DamageSender.SendDame(other.transform);
-        this.CreatBulletDisappearFX();
+        //this.CreatBulletDisappearFX();
 
     }
-    protected virtual void CreatBulletDisappearFX()
-    {
-        string fxName = this.GetBulletDisappearFXName();
-        Transform bulletDisappearFX= FXSpawner.Instance.Spawn(fxName, this.transform.position, this.transform.rotation);
-        bulletDisappearFX.gameObject.SetActive(true);
-    }
-    protected virtual string GetBulletDisappearFXName()
-    {
-        return FXSpawner.bulletDisappearFX;
-    }
+    //protected virtual void CreatBulletDisappearFX()
+    //{
+    //    string fxName = this.GetBulletDisappearFXName();
+    //    Transform bulletDisappearFX = FXSpawner.Instance.Spawn(fxName, this.transform.position, this.transform.rotation);
+    //    bulletDisappearFX.gameObject.SetActive(true);
+    //}
+    //protected virtual string GetBulletDisappearFXName()
+    //{
+    //    return FXSpawner.bulletDisappearFX;
+    //}
 }
