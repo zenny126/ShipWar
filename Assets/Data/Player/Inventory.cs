@@ -7,11 +7,11 @@ public class Inventory : ZennyMonoBehavior
     [SerializeField] protected int maxSlot = 70;
     [SerializeField] protected List<ItemInventory> items;
 
-    protected override void Start()
-    {
-       base.Start();
-        this.AddItem(ItemCode.IronOre, 3);
-    }
+    //protected override void Start()
+    //{
+    //   base.Start();
+    //    this.AddItem(ItemCode.IronOre, 3);
+    //}
     public virtual bool AddItem(ItemCode itemCode, int count)
     {
         ItemInventory itemInventory = this.GetItemByCode(itemCode);

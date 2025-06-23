@@ -45,7 +45,12 @@ public class ItemLooter : ZennyMonoBehavior
         
         ItemPickupable itemPickupable = other.transform.GetComponent<ItemPickupable>();
         if (itemPickupable == null) return;
-        Debug.Log(other.name);
-        Debug.Log(other.transform.parent.name);
+        //Debug.Log(other.name);
+        //Debug.Log(other.transform.parent.name);
+        ItemCode itemCode = itemPickupable.GetItemCode();
+        if (this.inventory.AddItem(itemCode, 1))
+        {
+            itemPickupable.Picked();
+        }
     }
 }

@@ -1,4 +1,4 @@
-repository "ShipWar@ntdg126@cloud"
+repository "Cloud Repositories/ShipWar@18967618344018@cloud"
   path "/"
     br "/main"
     co "/main"
