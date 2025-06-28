@@ -15,4 +15,4 @@ MonoBehaviour:
   itemCode: 2
   itemType: 1
   itemName: GoldOre
-  defaultMaxStack: 7
+  defaultMaxStack: 99

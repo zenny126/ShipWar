@@ -15,4 +15,4 @@ MonoBehaviour:
   itemCode: 1
   itemType: 1
   itemName: IronOre
-  defaultMaxStack: 7
+  defaultMaxStack: 99

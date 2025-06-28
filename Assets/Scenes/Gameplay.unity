@@ -365,7 +365,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isShooting: 0
-  shootCD: 0.08
+  shootCD: 0.2
   shootTimer: 0
 --- !u!1 &202826757
 GameObject:
@@ -1132,7 +1132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec4090b4687e01e4f9d9d1bda63f131a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.5
+  speed: 3
   targetPos: {x: 0, y: 0, z: 0}
 --- !u!1 &565394954
 GameObject:
