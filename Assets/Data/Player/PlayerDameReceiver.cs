@@ -5,7 +5,9 @@ public class PlayerDameReceiver : DameReceiver
 {
     [Header("PlayerDameReceiver")]
     [SerializeField] protected PlayerCtrl playerCtrl;
-    [SerializeField] protected PlayerCtrl PlayerCtrl { get => playerCtrl; }
+    //[SerializeField] protected PlayerCtrl playerCtrl;
+    protected PlayerCtrl PlayerCtrl { get => playerCtrl; }
+
 
     protected override void LoadComponents()
     {
