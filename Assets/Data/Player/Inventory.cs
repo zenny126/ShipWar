@@ -26,6 +26,12 @@ public class Inventory : ZennyMonoBehavior
         if(itemInventory == null) itemInventory= this.AddEmptyProfile(itemCode);
         return itemInventory;
     }
+
+    public virtual List<ItemInventory> GetAllItems()
+    {
+        return this.items != null ? new List<ItemInventory>(this.items) : new List<ItemInventory>();
+    }
+
     protected virtual ItemInventory AddEmptyProfile(ItemCode itemCode)
     {
         var profiles= Resources.LoadAll ( "ItemProfiles" , typeof(ItemProfileSO));

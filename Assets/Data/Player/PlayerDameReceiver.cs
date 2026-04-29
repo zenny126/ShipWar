@@ -8,6 +8,21 @@ public class PlayerDameReceiver : DameReceiver
     //[SerializeField] protected PlayerCtrl playerCtrl;
     protected PlayerCtrl PlayerCtrl { get => playerCtrl; }
 
+    public float CurrentHP
+    {
+        get => this.currentHP;
+    }
+
+    public float MaxHP
+    {
+        get => this.maxHP;
+    }
+
+    public void SetCurrentHP(float value)
+    {
+        this.currentHP = Mathf.Clamp(value, 0f, this.maxHP);
+        this.isDead = this.currentHP <= 0f;
+    }
 
     protected override void LoadComponents()
     {
